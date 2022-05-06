@@ -1,0 +1,21 @@
+@import 'variables';
+
+@import '~bootstrap/scss/bootstrap';
+@import '~sweetalert2/dist/sweetalert2';
+@import '~@fortawesome/fontawesome-svg-core/styles';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+@import '~startbootstrap-sb-admin-2/scss/sb-admin-2.scss';
+
+@import 'elements/card';
+@import 'elements/navbar';
+@import 'elements/buttons';
+@import 'elements/transitions';
+
+@import 'components/server-error';
+
+// import custom css
+@import '../css/app.css';
